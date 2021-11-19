@@ -47,6 +47,8 @@ app.get('/users', async (request, response, next) => {
 		};
 	}
 
+	console.log(test);
+
 	let users;
 
 	try {
